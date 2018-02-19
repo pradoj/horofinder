@@ -343,7 +343,8 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
         startView: 2,
         maxViewMode: 2,
         language: "pt-BR",
-        // disableTouchKeyboard: true,
+        disableTouchKeyboard: true,
+        immediateUpdates: true,
         autoclose: true
     });
 

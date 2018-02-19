@@ -1,6 +1,6 @@
 # HoroFinder
 
-<https://pradoj.com/horofinder>
+<https://pradoj.github.io/horofinder>
 
 HoroFinder: descubra seu horóscopo!
 

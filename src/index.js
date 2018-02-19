@@ -6,7 +6,8 @@ import { getSign, getZodiac } from 'horoscope';
         startView: 2,
         maxViewMode: 2,
         language: "pt-BR",
-        // disableTouchKeyboard: true,
+        disableTouchKeyboard: true,
+        immediateUpdates: true,
         autoclose: true
     });
 

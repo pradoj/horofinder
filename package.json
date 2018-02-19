@@ -1,0 +1,31 @@
+{
+  "name": "horofinder",
+  "version": "1.0.0",
+  "description": "HoroFinder: descubra todos seus horóscopos!",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "start:dev": "webpack-dev-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pradoj/horofinder.git"
+  },
+  "keywords": [
+    "horofinder"
+  ],
+  "author": "PradoJ.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pradoj/horofinder/issues"
+  },
+  "homepage": "https://github.com/pradoj/horofinder#readme",
+  "devDependencies": {
+    "webpack": "^3.11.0",
+    "webpack-dev-server": "^2.11.1"
+  },
+  "dependencies": {
+    "horoscope": "^2.0.1"
+  }
+}

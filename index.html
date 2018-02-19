@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HoroFinder: descubra todos seus horóscopos</title>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="img/icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/icons/favicon-16x16.png">
+    <link rel="manifest" href="img/icons/site.webmanifest">
+    <link rel="mask-icon" href="img/icons/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="img/icons/favicon.ico">
+    <meta name="apple-mobile-web-app-title" content="HoroFinder">
+    <meta name="application-name" content="HoroFinder">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-config" content="img/icons/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- CSS dependencies -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.7.1/css/bootstrap-datepicker.css"
+        integrity="sha256-I/m6FhcACNYmRoqn1xUnizh6S7jOJsTq+aiJ6BtE2LE=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cadeoleo.github.io/bower_components/share-button/share-button.min.css">
+    <link rel="stylesheet" href="css/index.css">
+
+</head>
+<body class="bg-light">
+    <div class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="text-center col-md-7 mx-auto">
+                    <i class="fa d-block fa-search fa-5x mb-4 text-dark"></i>
+                    <h2>
+                        <b>HoroFinder</b>
+                        <br>
+                        <span class="small"> descubra todos seus horóscopos</span>
+                    </h2>
+                    <p class="text-center">
+                        <a href="#find" class="btn btn-lg btn-success">só se for agora! »</a>
+                    </p>
+                    <hr class="mb-4">
+                    <p class="lead">Você é daquelas pessoas que sempre se sente deslocada nas conversas com seus amigos entendidos dos astros
+                        por não saber de cabeça seu signo, ascendente, lua, sol, onda do mar, horóscopo chinês e tudo isso
+                        mais?
+                        <br>
+                        <br>Seus problemas acabaram! Com o HoroFinder, você tem tudo isso na palma da mão! Ou não! 😉
+                    </p>
+                </div>
+            </div>
+            <hr class="mb-4">
+        </div>
+    </div>
+    <div class="">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 order-md-1">
+                    <div id="find">
+                        <div class="mb-3">
+                            <div class="input-group date text-center col-md-4 mx-auto">
+                                <input type="text" class="form-control form-control-lg text-center" id="dataNascimento" placeholder="Data de nascimento" required="">
+                                <div class="input-group-append">
+                                    <span class="input-group-text"><i class="fa fa-calendar"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <button type="button" class="btn btn-success btn-lg btn-block col-md-2 mx-auto" data-toggle="modal" data-target="#resultado-modal">
+                            Descubra ...
+                        </button> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal text-center" id="resultado-modal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title"><b><span id="data-escolhida">XYZ</span></b>, o que temos para essa data?</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">×</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <ul class="list-group">
+                        <li class="list-group-item list-group-item-primary"><b><span id="signo-tradicional">XYZ</span></b> no horóscopo tradicional 😝</li>
+                        <li class="list-group-item list-group-item-secondary"><b><span id="signo-chines">XYZ</span></b> no horóscopo chinês 😎</li>
+                        <li class="list-group-item list-group-item-info"><b><span id="signo-nerd">XYZ</span></b> no horóscopo nerd 😸</li>
+                    </ul>
+                    <p class="text-center this-share-button" style="display: none">
+                        <share-button></share-button>
+                    </p>
+                    <p class="text-center alert alert-success"><a href="https://twitter.com/search?f=tweets&q=horofinder">#HoroFinder</a></p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="py-5 text-muted text-center">
+        <div class="container">
+            <hr class="mb-4">
+            <div class="row">
+                <div class="col-md-12 my-4">
+                    <p class="mb-1">
+                        <a href="https://pradoj.com">© PradoJ.com</a>
+                    </p>
+                    <ul class="list-inline">
+                        <li class="list-inline-item">
+                            <a href="https://github.com/pradoj/horofinder">GitHub Repo</a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://cadeoleo.github.io/">CadêOLéo</a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://github.com/pradoj">PradoJ.com no GitHub</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date(); a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-114419064-1', 'auto');
+        ga('send', 'pageview');
+    </script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.7.1/js/bootstrap-datepicker.js" integrity="sha256-7Ls/OujunW6k7kudzvNDAt82EKc/TPTfyKxIE5YkBzg="
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.7.1/locales/bootstrap-datepicker.pt-BR.min.js"
+        integrity="sha256-QN6KDU+9DIJ/9M0ynQQfw/O90ef0UXucGgKn0LbUtq4=" crossorigin="anonymous"></script>
+    <script src="https://cadeoleo.github.io/bower_components/share-button/share-button.js"></script>
+    <script src="bundle.js"></script>
+    
+
+</body>
+</html>

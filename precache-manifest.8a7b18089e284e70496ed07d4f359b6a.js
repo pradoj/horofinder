@@ -36,7 +36,7 @@ self.__precacheManifest = [
     "url": "img/icons/favicon-32x32.png"
   },
   {
-    "revision": "800b16da2e4e6125262ef9aaa7288ff1",
+    "revision": "8e69854ebfe3b670d45388d6b776c685",
     "url": "index.html"
   },
   {

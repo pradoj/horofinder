@@ -12,5 +12,5 @@ module.exports = {
     "workbox-config.js",
   ],
   "swDest": "sw.js",
-  "swSrc": "src/sw.js"
+  // "swSrc": "src/sw.js"
 };

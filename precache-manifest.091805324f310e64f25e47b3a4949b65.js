@@ -12,7 +12,7 @@ self.__precacheManifest = [
     "url": "img/icons/html_code.html"
   },
   {
-    "revision": "5bfdb2dcf82e5976ac6f",
+    "revision": "65ea3839ad88a6f037e9",
     "url": "index.js"
   },
   {

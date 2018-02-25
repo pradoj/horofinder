@@ -9,7 +9,6 @@ import { getSign, getZodiac } from 'horoscope';
         disableTouchKeyboard: true,
         immediateUpdates: true,
         autoclose: true,
-        todayBtn: true,
     });
 
     $('#dataNascimento').on("changeDate", trigger);

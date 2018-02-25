@@ -346,7 +346,6 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
         disableTouchKeyboard: true,
         immediateUpdates: true,
         autoclose: true,
-        todayBtn: true,
     });
 
     $('#dataNascimento').on("changeDate", trigger);

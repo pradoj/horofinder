@@ -7,10 +7,10 @@ module.exports = {
     "node_modules/**/*",
     "src/**/*",
     "package*.json",
-    "README",
+    "README.md",
     "webpack.config.js",
     "workbox-config.js",
   ],
   "swDest": "sw.js",
-  // "swSrc": "src/sw.js"
+  "swSrc": "src/sw.js",
 };

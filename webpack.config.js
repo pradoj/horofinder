@@ -20,7 +20,7 @@ module.exports = {
                 'echo "Webpack End"',
             ]
         }),
-        new WorkboxPlugin.GenerateSW(WorkboxConfig)
+        new WorkboxPlugin.InjectManifest(WorkboxConfig)
     ],
     devServer: {
         host: "0.0.0.0",

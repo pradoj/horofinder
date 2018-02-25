@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "img/icons/html_code.html"
   },
   {
-    "revision": "ebc8054236794c15329c200d50b169a3",
+    "revision": "70346d5bc4999b31d039b4475677e46c",
     "url": "sw.js"
   },
   {
@@ -73,10 +73,6 @@ self.__precacheManifest = [
   },
   {
     "revision": "022b65934b70c8291d91cbd5322d4b0b",
-    "url": "bundle.js"
-  },
-  {
-    "revision": "a5dd78a77d8b09e58fb2",
     "url": "bundle.js"
   }
 ];

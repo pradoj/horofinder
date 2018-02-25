@@ -1,9 +1,9 @@
 const WebpackShellPlugin = require('webpack-shell-plugin');
 const WorkboxPlugin = require('workbox-webpack-plugin');
-const path = require('path');
-
 // import WorkboxConfig from './workbox-config.js';
 const WorkboxConfig = require('./workbox-config.js');
+
+const path = require('path');
 
 module.exports = {
     entry: './src/index.js',

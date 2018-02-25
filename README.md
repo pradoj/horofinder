@@ -8,6 +8,7 @@ HoroFinder: descubra seu horóscopo!
 
 - [npm](http://npmjs.org/)
 - [webpack](https://webpack.js.org/)
+- [workbox](https://developers.google.com/web/tools/workbox/)
 
 ## Como rodar em desenvolvimento
 

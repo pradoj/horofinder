@@ -30,7 +30,7 @@ import { getSign, getZodiac } from 'horoscope';
         var horoscopo = {
             'tradicional': '',
             'chines': '',
-            'nerd': ''
+            'nerd': '',
         };
 
         var date = $('#dataNascimento').datepicker('getDate');
@@ -156,27 +156,27 @@ import { getSign, getZodiac } from 'horoscope';
             title: 'HoroFinder',
             description: description,
             ui: {
-                buttonText: buttonText
+                buttonText: buttonText,
             },
             networks: {
                 pinterest: {
-                    enabled: false
+                    enabled: false,
                 },
                 reddit: {
-                    enabled: false
+                    enabled: false,
                 },
                 linkedin: {
-                    enabled: false
+                    enabled: false,
                 },
                 facebook: {
-                    enabled: false
+                    enabled: false,
                 },
                 googlePlus: {
-                    enabled: false
+                    enabled: false,
                 },
                 email: {
-                    enabled: false
-                }
+                    enabled: false,
+                },
             }
         });
 

@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/pradoj/horofinder#readme",
   "devDependencies": {
+    "clean-webpack-plugin": "^0.1.18",
     "webpack": "^3.11.0",
     "webpack-dev-server": "^2.11.1",
     "webpack-shell-plugin": "^0.5.0",

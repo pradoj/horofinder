@@ -7,6 +7,7 @@ module.exports = {
     "node_modules/**/*",
     "src/**/*",
     "package*.json",
+    "precache-manifest.*.js",
     "README.md",
     "webpack.config.js",
     "workbox-config.js",

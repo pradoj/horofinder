@@ -184,6 +184,8 @@ import { getSign, getZodiac } from 'horoscope';
 
         $('.this-share-button').show();
 
+        $('#botao-abre-modal').removeClass('d-none');
+
         $('#resultado-modal').modal('toggle');
 
     }

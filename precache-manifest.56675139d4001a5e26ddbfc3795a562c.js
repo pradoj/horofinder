@@ -12,7 +12,7 @@ self.__precacheManifest = [
     "url": "img/icons/html_code.html"
   },
   {
-    "revision": "5ec1d949f9c6c9483b9d",
+    "revision": "5bfdb2dcf82e5976ac6f",
     "url": "index.js"
   },
   {
@@ -36,7 +36,7 @@ self.__precacheManifest = [
     "url": "img/icons/favicon-32x32.png"
   },
   {
-    "revision": "8235c95ecfa2bdb95ab1dc22b3376105",
+    "revision": "44958be7b8814973bb15026773d6de91",
     "url": "index.html"
   },
   {
@@ -68,7 +68,7 @@ self.__precacheManifest = [
     "url": "img/icons/android-chrome-192x192.png"
   },
   {
-    "revision": "0b0a02c278740a84138a572131589b5f",
+    "revision": "b063b3bd3b7bc802516c12cffafdef4f",
     "url": "css/index.css"
   },
   {

@@ -20,14 +20,16 @@
 
     <!-- CSS dependencies -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.7.1/css/bootstrap-datepicker.css"
         integrity="sha256-I/m6FhcACNYmRoqn1xUnizh6S7jOJsTq+aiJ6BtE2LE=" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://cadeoleo.github.io/bower_components/share-button/share-button.min.css">
     <link rel="stylesheet" href="css/index.css">
 
 </head>
-<body class="bg-light">
-    <div class="py-5">
+<body>
+    <div>
         <div class="container">
             <div class="row">
                 <div class="text-center col-md-7 mx-auto">
@@ -35,28 +37,25 @@
                     <h2>
                         <b>HoroFinder</b>
                         <br>
-                        <span class="small"> descubra todos seus horóscopos</span>
+                        <small class="text-muted">descubra todos seus horóscopos</small>
                     </h2>
                     <p class="text-center">
                         <a href="#find" class="btn btn-lg btn-success">só se for agora! »</a>
                     </p>
-                    <hr class="mb-4">
-                    <p class="lead">Você é daquelas pessoas que sempre se sente deslocada nas conversas com seus amigos entendidos dos astros
-                        por não saber de cabeça seu signo, ascendente, lua, sol, onda do mar, horóscopo chinês e tudo isso
-                        mais?
-                        <br>
-                        <br>Seus problemas acabaram! Com o HoroFinder, você tem tudo isso na palma da mão! Ou não! 😉
+                    <p class="text-center">
+                        <a href="#find" class="btn btn-sm btn-info">+ info &nbsp;</a>
                     </p>
                 </div>
             </div>
             <hr class="mb-4">
         </div>
     </div>
-    <div class="">
+    <div>
         <div class="container">
             <div class="row">
                 <div class="col-md-12 order-md-1">
                     <div id="find">
+                        <h3 class="text-center">Vamos lá?</h3>
                         <div class="mb-3">
                             <div class="input-group date text-center col-md-4 mx-auto">
                                 <input type="text" class="form-control form-control-lg text-center" id="dataNascimento" placeholder="Data de nascimento" required="">
@@ -65,13 +64,22 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- <button type="button" class="btn btn-success btn-lg btn-block col-md-2 mx-auto" data-toggle="modal" data-target="#resultado-modal">
-                            Descubra ...
-                        </button> -->
+                        <p class="text-center">
+                            <button id="botao-abre-modal" type="button" class="d-none btn btn-success btn-sm" data-toggle="modal" data-target="#resultado-modal">Descubra »</button>
+                        </p>
                     </div>
                 </div>
             </div>
+            <hr class="mb-4">
         </div>
+    </div>
+    <div class="container text-center" id="info">
+        <h3>Mas para que serve o HoroFinder?</h3>
+        <p>Você é daquelas pessoas que sempre se sente deslocada nas conversas com seus amigos entendidos dos astros por não saber de
+            cabeça seu signo, ascendente, lua, sol, onda do mar, horóscopo chinês e tudo isso mais?
+            <br>
+            <br>Seus problemas acabaram! Com o HoroFinder, você tem tudo isso na palma da mão! Ou não! 😉
+        </p>
     </div>
     <div class="modal text-center" id="resultado-modal">
         <div class="modal-dialog" role="document">
@@ -91,7 +99,7 @@
                     <p class="text-center this-share-button" style="display: none">
                         <share-button></share-button>
                     </p>
-                    <p class="text-center alert alert-success"><a href="https://twitter.com/search?f=tweets&q=horofinder">#HoroFinder</a></p>
+                    <p class="text-center alert alert-success"><a href="https://twitter.com/search?f=tweets&q=horofinder"><i class="fa fa-twitter"></i> #HoroFinder</a></p>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>

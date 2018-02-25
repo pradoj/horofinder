@@ -521,6 +521,8 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
         $('.this-share-button').show();
 
+        $('#botao-abre-modal').removeClass('d-none');
+
         $('#resultado-modal').modal('toggle');
 
     }

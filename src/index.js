@@ -1,5 +1,7 @@
 import { getSign, getZodiac } from 'horoscope';
 
+import './css/index.css'
+
 (function () {
 
     $('#dataNascimento').datepicker({

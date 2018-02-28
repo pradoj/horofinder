@@ -21,6 +21,6 @@ npm run start:dev
 
 ```shell
 npm install --save-prod
-npm run build
+npm run build:prod
 # php -S localhost:8123
 ```
